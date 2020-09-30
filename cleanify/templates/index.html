@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>
+
+    <form method = "POST" action = "clean">
+        <h2>URI of playlist you want cleaned:</h2>
+        <p><input type="text" name = "URI" /> </p>
+        <p><input type="submit" name = "Clean" /> </p>
+    </form>
+</p>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+<html>
+    <head>
+        <link href = "{% static 'base.css' %}" rel="stylesheet" type = "text/css">
+        <style>
+            h1 {text-align: center;}
+            h2 {text-align: center;}
+
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>
+            
+        <title> 
+            Cleanify
+        </title>
+    </head>
+    <body>
+        <h1>
+            Cleanify
+        </h1>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
